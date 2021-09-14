@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>CSS (cascading style sheets) 1</title>
+
+<!-- this is how you link to your external css style sheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- it's always best practice to avoid in line css like we've been doing in past weeks -->
+  <!-- this is how you do css styling, ul is the name you reference and then you change the color -->
+  <!-- this is where your css would go if it were internal (alwasy in the header) -->
+  <!-- <style>
+    h1 {
+      font-size: 50px;
+    }
+    body{
+      background-color: yellow;
+    }
+    ul {
+      color: green;
+      font-family: cursive;
+      font-weight: 600;
+    }
+    img {
+      width: 20vw;
+      margin: 10px;
+    }
+    form {
+      margin-left: 20px;
+    }
+    #top {
+      background-color: rgb(30,100,0);
+    }
+    <!-- these are selectors - when you ref a h1(which there are 2 of) and specify the specific one with a # -->
+    <!-- /* #top h1{
+      color: blue;
+    } */ -->
+
+  </style> -->
+</head>
+
+<body>
+  <section id="top"
+  <h1>This is my top header</h1>
+  <!-- this is how you would do a nested list -->
+  <!-- style tags are cascading (in line) so it waterfalls down to all of them, you can move it down if you want only certain parts changed -->
+  <ul style="color:red">
+    <li>coffee</li>
+    <li>tea
+      <!-- you can use hex code or rgb to change color also -->
+      <ul style="color:blue">
+        <li>black</li>
+        <li>green</li>
+      </ul>
+      </li>
+    <li>water</li>
+  </ul>
+  </section>
+
+<!-- if the jpeg image were in my folder this is how you could link to the full size image on your site -->
+<section id="img"
+  <a href="https://google.com"><img src="img.jpeg" style="width:20wv"></a>
+</section>
+<!-- this is how you make a text input -->
+
+<section id="input"
+<form>
+  <label for="fname">First Name:</label></br>
+  <input type="text" name="fname"></br>
+<!-- the br is a line break, if you take it out the boxes will be side by side only use them in forms-->
+  <label for="lname">Last Name:</label></br>
+  <input type="text" name="lname"></br>
+
+<!-- this is how you make radio buttons -->
+<!-- you can add br tags if you want to separate the lines -->
+  <input type="radio" id="coffee" name="coffee"><label for="coffee">Coffee</label>
+  <input type="radio" id="tea" name="tea"><label for="teaa">Tea</label>
+
+<!-- this is how you make a button -->
+  <button id="submit">Submit</button>
+</form>
+<a href="#top">Back to Top</a>
+</section>
+
+
+</body>
+
+</html>

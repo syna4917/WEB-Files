@@ -1,0 +1,31 @@
+/* this is an external css file */
+/* all of your css should be in the same place */
+
+<style>
+  h1 {
+    font-size: 50px;
+  }
+  body{
+    background-color: yellow;
+  }
+  ul {
+    color: green;
+    font-family: cursive;
+    font-weight: 600;
+  }
+  img {
+    width: 20vw;
+    margin: 10px;
+  }
+  form {
+    margin-left: 20px;
+    /* sizing with vw an vh instead of pixels is what makes things responsive to window size */
+    font-size: 10vw;
+  }
+  #top {
+    background-color: rgb(30,100,0);
+  }
+  /* <!-- these are selectors - when you ref a h1(which there are 2 of) and specify the specific one with a # --> */
+
+
+</style>
