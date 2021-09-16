@@ -22,3 +22,11 @@ body {
   font-family: "Palatino";
   font-weight: 400;
 }
+
+a:hover {
+  color: #CC5A71;
+}
+
+a:visited {
+  color: #CC5A71
+}
