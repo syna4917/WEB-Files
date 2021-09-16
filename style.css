@@ -1,0 +1,24 @@
+
+h1 {
+  color: #6494AA;
+  font-family: "Palatino";
+  font-weight: 600;
+}
+
+h2 {
+  color: #CC5A71;
+  font-family: "Palatino";
+  font-weight: 500;
+}
+
+body {
+  color: #292F36;
+  font-family: "Palatino";
+  font-weight: 400
+}
+
+#links ul {
+  color: #CC5A71;
+  font-family: "Palatino";
+  font-weight: 400;
+}
