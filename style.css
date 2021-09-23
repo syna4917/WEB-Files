@@ -30,3 +30,7 @@ a:hover {
 a:visited {
   color: #CC5A71
 }
+
+#header {
+  border: solid black 1px;
+}
