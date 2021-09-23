@@ -14,7 +14,8 @@ h2 {
 body {
   color: #292F36;
   font-family: "Palatino";
-  font-weight: 400
+  font-weight: 400;
+  background-color: #F9F7F0;
 }
 
 #links ul {
@@ -28,9 +29,23 @@ a:hover {
 }
 
 a:visited {
-  color: #CC5A71
+  color: #CC5A71;
 }
 
 #header {
-  border: solid black 1px;
+  border: solid #CC5A71 1px;
+}
+
+#header h1 {
+  color: #6494AA;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+#header p {
+  color: #6494AA;
+  font-family: "Palatino";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 20px;
 }
