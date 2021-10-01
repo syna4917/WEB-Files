@@ -1,13 +1,11 @@
 
 h1 {
   color: #6494AA;
-  font-family: "Palatino";
   font-weight: 600;
 }
 
 h2 {
   color: #CC5A71;
-  font-family: "Palatino";
   font-weight: 500;
 }
 
@@ -16,6 +14,8 @@ body {
   font-family: "Palatino";
   font-weight: 400;
   background-color: #F9F7F0;
+  padding: 0px;
+  margin: 10px;
 }
 
 #links ul {
@@ -32,20 +32,37 @@ a:visited {
   color: #CC5A71;
 }
 
-#header {
+#hero{
   border: solid #CC5A71 2px;
+  width:98vw;
+  height:30vh;
+  overflow:hidden;
+  margin:10px;
+  padding: 10px;
 }
 
-#header h1 {
+#heroimage{
+  width: 100vw;
+  position: relative;
+  bottom: 337px;
+}
+
+#hero h1 {
   color: #6494AA;
+  font-family: "Palatino";
   font-weight: 500;
-  font-size: 40px;
+  font-size: 60px;
+  z-index: 1;
+  position: relative;
+  margin-top: 8px;
 }
 
-#header p {
+#hero p {
   color: #6494AA;
   font-family: "Palatino";
   font-style: italic;
   font-weight: 800;
   font-size: 20px;
+  z-index: 1;
+  position: relative;
 }
