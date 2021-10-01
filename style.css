@@ -1,3 +1,27 @@
+#hero{
+  width:100vw;
+  height:30vh;
+  overflow:hidden;
+  padding:0px;
+  margin: auto;
+}
+
+#heroimage{
+  width: 100vw;
+  position: relative;
+  bottom: 310px;
+}
+
+#hero h1 {
+  color: #F9F7F0;
+  font-weight: 500;
+  font-size: 60px;
+  z-index: 1;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  background-color: #6494AA;
+}
 
 h1 {
   color: #6494AA;
@@ -15,58 +39,44 @@ body {
   font-weight: 400;
   background-color: #F9F7F0;
   padding: 0px;
-  /* margin: 0px 20px; */
+}
+
+#name{
+  margin-left: 30px;
+}
+
+#name h1{
+  color: #CC5A71;
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 0px;
+}
+
+#name p{
+  margin-top: -25px;
+  padding-top: 0px;
+  color: #CC5A71;
+  font-size: 15px;
 }
 
 #about{
   margin-left: 50px;
 }
 
+#goals{
+  margin-left: 50px;
+}
+
+#links{
+  margin-left: 50px;
+}
+
 #links ul {
   color: #6494AA;
-  font-family: "Palatino";
   font-weight: 400;
 }
 
-a:hover {
-  color: #292F36;
-}
 
 a:visited {
   color: #CC5A71;
-}
-
-#hero{
-  border: solid #CC5A71 2px;
-  width:95vw;
-  height:30vh;
-  overflow:hidden;
-  padding: 10px;
-  margin: auto;
-}
-
-#heroimage{
-  width: 95vw;
-  position: relative;
-  bottom: 337px;
-}
-
-#hero h1 {
-  color: #6494AA;
-  font-family: "Palatino";
-  font-weight: 500;
-  font-size: 60px;
-  z-index: 1;
-  position: relative;
-  margin-top: 8px;
-}
-
-#hero p {
-  color: #6494AA;
-  font-family: "Palatino";
-  font-style: italic;
-  font-weight: 800;
-  font-size: 20px;
-  z-index: 1;
-  position: relative;
 }
