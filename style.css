@@ -15,7 +15,11 @@ body {
   font-weight: 400;
   background-color: #F9F7F0;
   padding: 0px;
-  margin: 10px;
+  /* margin: 0px 20px; */
+}
+
+#about{
+  margin-left: 50px;
 }
 
 #links ul {
@@ -34,15 +38,15 @@ a:visited {
 
 #hero{
   border: solid #CC5A71 2px;
-  width:98vw;
+  width:95vw;
   height:30vh;
   overflow:hidden;
-  margin:10px;
   padding: 10px;
+  margin: auto;
 }
 
 #heroimage{
-  width: 100vw;
+  width: 95vw;
   position: relative;
   bottom: 337px;
 }
