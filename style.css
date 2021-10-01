@@ -80,3 +80,7 @@ body {
 a:visited {
   color: #CC5A71;
 }
+
+a:hover{
+    color: #6494AA;
+}
