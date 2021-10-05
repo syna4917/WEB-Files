@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>week 7, java pt 2, quote machine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
+</head>
+
+<body>
+
+<section id="quotesection">
+  <h1 id="qtext">welcome to the quote machine, click the button to get a quote</h1>
+  <button id="newquote">new quote</button>
+</section>
+
+<section id="flex">
+  <div class="flexitem">
+    <h2>one</h2>
+  </div>
+
+  <div class="flexitem2">
+    <h2>two</h2>
+  </div>
+
+  <div class="flexitem">
+    <h2>three</h2>
+  </div>
+</section>
+
+<!-- <script>
+  const quotes = ["I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best." , "inspiration" , "happiness"];
+  console.log(quotes[0]);
+
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+  function buttonClicked(){
+    alert("button clicked");
+  }
+</script> -->
+
+<script>
+  const quotes = ["I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best." , "inspiration" , "happiness"];
+    let quotecount = 0;
+
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("qtext").innerHTML = quotes[quotecount];
+    if(quotecount>=2){
+      quotecount = 0;
+    }else{
+      quotecount++;
+    }
+  }
+</script>
+
+
+
+
+
+
+</body>
+</html>
