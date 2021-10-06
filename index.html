@@ -25,13 +25,14 @@
 
 
 <script>
-  const pics = photoArray[img.src="assets/pic1.jpeg", "assets/pic2.jpeg" , "assets/pic3.jpeg" , "assets/pic4.jpeg"];
+  const photoArray = ["assets/pic1.jpeg", "assets/pic2.jpeg" , "assets/pic3.jpeg" , "assets/pic4.jpeg"];
     let piccount = 0;
 
+  document.getElementById("newpic").addEventListener("click", buttonClicked);
 
   function buttonClicked(){
     console.log(pics[piccount]);
-    document.getElementById(photoArray[index]).innerHTML = pics[piccount];
+    document.getElementById("pictext").src = photoArray;
     if(piccount>=2){
       piccount = 0;
     }else{
