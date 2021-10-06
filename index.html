@@ -25,27 +25,20 @@
 
 
 <script>
-  // const pics = [img.src="assets/pic1.jpeg", "inspiration" , "happiness"];
-  //   let piccount = 0;
+  const pics = photoArrayIndex[img.src="assets/pic1.jpeg", "assets/pic2.jpeg" , "assets/pic3.jpeg" , "assets/pic4.jpeg"];
+    let piccount = 0;
 
 
-  document.getElementById("newpic").addEventListener("click", buttonClicked);
+  function buttonClicked(){
+    console.log(pics[piccount]);
+    document.getElementById(photoArray[index]).innerHTML = pics[piccount];
+    if(piccount>=2){
+      piccount = 0;
+    }else{
+      piccount++;
+    }
+  }
 
-  // function buttonClicked(){
-  //   console.log(pics[piccount]);
-  //   document.getElementById("pictext").innerHTML = pics[piccount];
-  //   if(piccount>=2){
-  //     piccount = 0;
-  //   }else{
-  //     piccount++;
-  //   }
-  // }
-
-  function buttonClicked() {
-    var img = document.createElement('img');
-    img.src = assets/pic1.jpeg;
-    document.getElementById('pictext').appendChild(img);
-}
 </script>
 
 <section id=about>
