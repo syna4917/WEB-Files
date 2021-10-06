@@ -76,11 +76,28 @@ body {
   font-weight: 400;
 }
 
-
 a:visited {
   color: #CC5A71;
 }
 
 a:hover{
     color: #6494AA;
+}
+
+#pics{
+  border-style: solid;
+  border-color: #CC5A71;
+  border-width: 3px;
+  float:right;
+  margin-right: 50px;
+  padding: 8vh 10vw 10vh 10vw;
+}
+
+#newpic{
+  background-color: #6494AA;
+  border-color: #6494AA;
+  font-family: "Palatino";
+  color: #F9F7F0;
+  margin-bottom: 1px;
+  padding-botton: 1px;
 }
