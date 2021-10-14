@@ -1,0 +1,37 @@
+body{
+  background-color: #fffcf2;
+}
+
+#quotesection{
+  background-color: #bd632f;
+  margin: 30vh 20vw;
+  padding: 10vh 10vw 10vh 10vw;
+  height: 30vh;
+  width: 45vw;
+}
+
+button{
+  padding: 2vh 6vw;
+  float: right;
+  margin-top: 1vh;
+  background-color: #d8973c;
+  color: #fffcf2;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+button:hover{
+  border: #fffcf2 solid 1px;
+}
+
+button:active{
+  color: #fff;
+}
+
+h1{
+  color: #fffcf2;
+  font-family: "Bebas Neue";
+  font-weight: 200;
+  font-size: 50px;
+}
