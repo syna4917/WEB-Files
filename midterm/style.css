@@ -1,0 +1,23 @@
+body{
+  background-color: #ccc5b9;
+}
+
+#buttons{
+  display:flex;
+  /* flex-grow: 1; */
+  width: auto;
+  border: 1px solid #aaa;
+}
+
+.weekdays{
+  flex-grow: 1;
+  width: auto;
+  border: 1px solid #aaa;
+}
+
+button{
+  background-color: #eb5e28;
+  color: #fffcf2;
+  font-family: "Oswald";
+  font-weight: bold;
+}
