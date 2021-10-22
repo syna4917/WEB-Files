@@ -2,17 +2,21 @@ body{
   background-color: #ccc5b9;
 }
 
+h1{
+  color: #403d39;
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 50px;
+}
+
 #buttons{
   display:flex;
-  /* flex-grow: 1; */
   width: auto;
-  border: 1px solid #aaa;
 }
 
 .weekdays{
   flex-grow: 1;
   width: auto;
-  border: 1px solid #aaa;
 }
 
 button{
@@ -20,4 +24,33 @@ button{
   color: #fffcf2;
   font-family: "Oswald";
   font-weight: bold;
+  font-size: 20px;
+  padding: 6px 35px 6px 35px;
+  border-radius: 4px;
+  border-color: #eb5e28;
+  width: 175px;
+}
+
+
+h2{
+  color: #403d39;
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 25px;
+  margin: 2px;
+}
+
+#options{
+  display:flex;
+  width: auto;
+  margin-left: 500px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  padding: 10px;
 }
