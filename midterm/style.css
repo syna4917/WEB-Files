@@ -31,25 +31,36 @@ button{
   width: 175px;
 }
 
-ul{
+#list ul{
   color: #403d39;
   font-family: "Oswald";
   font-weight: bold;
   font-size: 25px;
   margin: 2px;
+  list-style-type: none;
+  margin-top: 10px;
 }
+
+#list li{
+  margin-top: 70px;
+}
+
+#icons ul{
+  list-style-type: none;
+}
+
 
 #options{
   display:flex;
   width: auto;
-  margin-left: 200px;
+  margin-left: 400px;
   padding-top: 30px;
   padding-left: 30px;
 }
 
 img{
-  width: 175px;
-  height: 150px;
+  width: 85px;
+  height: 75px;
   margin: 10px;
   padding: 10px;
 }
@@ -57,5 +68,6 @@ img{
 .icons{
   display:flex;
   flex-grow:;
-  width:400;
+  width:300;
+  padding: 0px;
 }

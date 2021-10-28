@@ -7,9 +7,23 @@ let saturdaypics = ["assets/sleepin.png", "assets/bake.png", "assets/shopping.pn
 let sundaypics = ["assets/breakfast.png", "assets/hair.png", "assets/homework.png", "assets/kitchen.png"];
 let prevoption;
 
+// var dt = new Date();
+// document.getElementById("date").innerHTML = dt.toLocaleString();
+//
+// const dateformat = require("dateformat");
+// console.log(dateformat(dt, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
 
 
 
+// console.log(dt.toLocaleString {
+//   weekday: "long",
+//   day: "numeric",
+//   year: "numeric",
+//   month:"long",
+//   hour: "numeric",
+//   minute: "numeric",
+//   second: "numeric",
+// }));
 
 document.getElementById("monday").addEventListener("click", mondayClicked);
   function mondayClicked(){
@@ -20,6 +34,7 @@ document.getElementById("monday").addEventListener("click", mondayClicked);
     document.getElementById("image3").src = mondaypics[2];
     document.getElementById("image4").src = mondaypics[3];
   }
+
 
 document.getElementById("tuesday").addEventListener("click", tuesdayClicked);
   function tuesdayClicked(){
