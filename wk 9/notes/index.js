@@ -2,6 +2,8 @@ let meals = ["lunch", "dinner", "brunch"];
 let images = ["lunch.jpg", "dinner.jpg", "brunch.jpg"];
 let prevmeal;
 
+
+
 for(i=0; i<document.getElementsByClassName("meal").length; i++){
   console.log(meals[i]);
   document.getElementsByClassName("meal")[i].innerHTML = "<h2>" + meals[i] + "</h2>";

@@ -31,8 +31,7 @@ button{
   width: 175px;
 }
 
-
-h2{
+ul{
   color: #403d39;
   font-family: "Oswald";
   font-weight: bold;
@@ -43,14 +42,20 @@ h2{
 #options{
   display:flex;
   width: auto;
-  margin-left: 500px;
+  margin-left: 200px;
   padding-top: 30px;
   padding-left: 30px;
 }
 
 img{
-  width: 150px;
+  width: 175px;
   height: 150px;
   margin: 10px;
   padding: 10px;
+}
+
+.icons{
+  display:flex;
+  flex-grow:;
+  width:400;
 }
