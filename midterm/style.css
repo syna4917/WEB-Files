@@ -31,14 +31,17 @@ button{
   width: 175px;
 }
 
+button:hover{
+  color: #ccc5b9;
+}
+
 #list ul{
-  color: #403d39;
+  color: #252422;
   font-family: "Oswald";
   font-weight: bold;
-  font-size: 25px;
+  font-size: 30px;
   margin: 2px;
   list-style-type: none;
-  margin-top: 10px;
 }
 
 #list li{
@@ -49,13 +52,21 @@ button{
   list-style-type: none;
 }
 
-
 #options{
   display:flex;
   width: auto;
-  margin-left: 400px;
-  padding-top: 30px;
+  float: center;
+  margin-top: 50px;
   padding-left: 30px;
+  padding-bottom: 40px;
+  border: 5px solid #403d39;
+  border-radius: 4px;
+}
+
+#list{
+margin-left: 375px;
+padding-top: 0px;
+margin-top: 0px;
 }
 
 img{

@@ -7,24 +7,14 @@ let saturdaypics = ["assets/sleepin.png", "assets/bake.png", "assets/shopping.pn
 let sundaypics = ["assets/breakfast.png", "assets/hair.png", "assets/homework.png", "assets/kitchen.png"];
 let prevoption;
 
-// var dt = new Date();
-// document.getElementById("date").innerHTML = dt.toLocaleString();
-//
-// const dateformat = require("dateformat");
-// console.log(dateformat(dt, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
 
 
+// the following function shows the current date on the default screen
+var dt = new Date();
+document.getElementById("date").innerHTML = dt.toDateString();
+console.log(new Date().toDateString(dt, "dddd, mmmmm, dS, yyyy, h:MM:ss TT"));
 
-// console.log(dt.toLocaleString {
-//   weekday: "long",
-//   day: "numeric",
-//   year: "numeric",
-//   month:"long",
-//   hour: "numeric",
-//   minute: "numeric",
-//   second: "numeric",
-// }));
-
+// the following series of functions change the options and icons according to the button that's clicked
 document.getElementById("monday").addEventListener("click", mondayClicked);
   function mondayClicked(){
     document.getElementById("list").innerHTML = "<ul><li>teach yourself a pure barre class</li><li>eat dessert after chapter dinner</li><li>plan your week</li><li>gorcery shopping at trader joe's</ul>";
