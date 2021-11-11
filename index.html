@@ -13,71 +13,90 @@
   <img alt="wildflower drawings" src="assets/hero.jpg" id="heroimage">
 </section>
 
-<section id="pics">
-  <img id="newpic" alt="a picture of me" src="assets/pic1.jpeg"><br>
-  <button id="picbutton">Click for More</button>
-</section>
+<section id="content">
 
-<section id="name">
-  <h1>Hey, my name is Sydney Nation!</h1>
-  <p>She/Her/Hers</p>
-</section>
+  <div>
+      <section id="name">
+        <h1>Hey, my name is Sydney Nation!</h1>
+        <p>She/Her/Hers</p>
+      </section>
 
-<section id="about">
-  <h1>About Me:</h1>
-  <ul>
-    <li>I'm a senior, marketing major and CTD minor</li>
-    <li>I'm a Colorado native</li>
-    <li>I teach Pure Barre</li>
-  </ul>
-</section>
+      <section id="about">
+        <h1>About Me:</h1>
+        <ul>
+          <li>I'm a senior, marketing major and CTD minor</li>
+          <li>I'm a Colorado native</li>
+          <li>I teach Pure Barre</li>
+        </ul>
+      </section>
 
-<section id="goals">
-  <h1>Goals for Web:</h1>
-  <ol>
-    <li>Learn and retain the basics of HTML</li>
-    <li>Be able to apply HTML in a marketing context</li>
-  </ol>
-</section>
+      <section id="goals">
+        <h1>Goals for Web:</h1>
+        <ol>
+          <li>Learn and retain the basics of HTML</li>
+          <li>Be able to apply HTML in a marketing context</li>
+        </ol>
+      </section>
 
-<section id="links">
-  <h1>Portfolio:</h1>
-  <ul>
-    <li><a href="wk%202/encyclopedia%20page/index.html" target="_blank">Encyclopedia Page</a></li>
-  </ul>
-</section>
+      <section id="links">
+        <h1>Portfolio:</h1>
+        <ul>
+          <li><a href="wk%202/encyclopedia%20page/index.html" target="_blank">Encyclopedia Page</a></li>
+        </ul>
+      </section>
+    </div>
+
+  <div>
+    <section id="pics">
+      <img id="newpic" alt="a picture of me" src="assets/pic1.jpeg"><br>
+      <button id="picbutton">Click for More</button>
+    </section>
+  </div>
+
+  <!-- <div>
+      <section id="name">
+        <h1>Hey, my name is Sydney Nation!</h1>
+        <p>She/Her/Hers</p>
+      </section>
+
+      <section id="about">
+        <h1>About Me:</h1>
+        <ul>
+          <li>I'm a senior, marketing major and CTD minor</li>
+          <li>I'm a Colorado native</li>
+          <li>I teach Pure Barre</li>
+        </ul>
+      </section>
+
+      <section id="goals">
+        <h1>Goals for Web:</h1>
+        <ol>
+          <li>Learn and retain the basics of HTML</li>
+          <li>Be able to apply HTML in a marketing context</li>
+        </ol>
+      </section>
+
+      <section id="links">
+        <h1>Portfolio:</h1>
+        <ul>
+          <li><a href="wk%202/encyclopedia%20page/index.html" target="_blank">Encyclopedia Page</a></li>
+        </ul>
+      </section>
+    </div> -->
+
+  </section>
+
+
+
+
 
 <section id="backtotop">
   <p><a href="#hero"> Back to Top </a></p>
 </section>
 
 
-<script>
 
-document.getElementById("picbutton").addEventListener("click", buttonClicked);
-
-  const photoArray = ["assets/pic1.jpeg", "assets/pic2.jpg" , "assets/pic3.jpeg" , "assets/pic4.jpeg" , "assets/pic5.jpeg"];
-    let piccount = 0;
-
-  function buttonClicked(){
-    console.log(pics[piccount]);
-    document.getElementById("newpic").src = photoArray[piccount];
-    if(piccount>=4){
-      piccount = 0;
-    }else{
-      piccount++;
-    }
-  }
-
-
-  document.getElementById("backtotop").addEventListener("click", linkClicked);
-
-  function linkClicked(){
-    alert("Are you sure you want to go to the top?")
-    document.getElementById("backtotop").innerHTML = "You went back to the top.";
-  }
-</script>
-
+<script src="index.js"></script>
 </body>
 
 </html>
