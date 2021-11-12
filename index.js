@@ -12,11 +12,3 @@ document.getElementById("picbutton").addEventListener("click", buttonClicked);
       piccount++;
     }
   }
-
-
-  // document.getElementById("backtotop").addEventListener("click", linkClicked);
-  //
-  // function linkClicked(){
-  //   alert("Are you sure you want to go to the top?")
-  //   document.getElementById("backtotop").innerHTML = "You went back to the top.";
-  // }
