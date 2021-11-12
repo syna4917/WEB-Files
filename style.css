@@ -141,6 +141,7 @@ a:hover{
 
   #hero{
     bottom: 0px;
+    /* object-fit: cover; */
   }
 
 
@@ -162,16 +163,16 @@ a:hover{
 
 }
 
-@media screen and (max-width:400px){
+@media screen and (min-width:300px){
   #hero{
     padding-bottom: -200px;
-    background-color: red;
+    object-fit: cover;
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 399px){
+/* @media screen and (min-width: 0px) and (max-width: 399px){
   #hero{
-    /* padding-bottom: -200px; */
+    padding-bottom: -200px;
     background-color: blue;
   }
-}
+} */
