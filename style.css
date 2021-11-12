@@ -20,6 +20,7 @@
   /* bottom: 310px; */
   margin-top: 0px;
   overflow: hidden;
+  object-fit: cover;
 }
 
 #hero h1 {
@@ -136,12 +137,13 @@ a:hover{
 @media screen and (max-width:1000px){
 
   #heroimage{
+    /* object-fit: cover; */
+
     max-height: 300px;
   }
 
   #hero{
     bottom: 0px;
-    /* object-fit: cover; */
   }
 
 
@@ -163,11 +165,16 @@ a:hover{
 
 }
 
-@media screen and (min-width:300px){
+@media screen and (min-width:100px){
   #hero{
     padding-bottom: -200px;
-    object-fit: cover;
   }
+
+  #heroimage{
+    /* object-fit: cover; */
+  }
+
+
 }
 
 /* @media screen and (min-width: 0px) and (max-width: 399px){
