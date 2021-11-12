@@ -1,6 +1,6 @@
 #content{
   display: flex;
-  margin-left: 125px;
+  justify-content: center;
 }
 
 #hero{
@@ -13,6 +13,7 @@
 
 #heroimage{
   width: 100vw;
+  height: 500px;
   position: relative;
   bottom: 310px;
 }
@@ -26,6 +27,7 @@
   margin-top: 0px;
   margin-left: 0px;
   background-color: #6494AA;
+  overflow: hidden;
 }
 
 h1 {
@@ -47,7 +49,7 @@ body {
 }
 
 #name{
-  margin-left: 30px;
+  padding-left: 30px;
 }
 
 #name h1{
@@ -65,20 +67,24 @@ body {
 }
 
 #about{
-  margin-left: 50px;
+  padding-left: 50px;
 }
 
 #goals{
-  margin-left: 50px;
+  padding-left: 50px;
 }
 
 #links{
-  margin-left: 50px;
+  padding-left: 50px;
 }
 
 #links ul {
   color: #6494AA;
   font-weight: 400;
+}
+
+a:link {
+  color: #CC5A71;
 }
 
 a:visited {
@@ -95,7 +101,7 @@ a:hover{
   border-width: 3px;
   float:right;
   margin-right: 50px;
-  margin-left: 50px;
+  margin-left: 100px;
   margin-bottom: 20px;
   margin-top: 35px;
   padding: 10px;
@@ -118,21 +124,37 @@ a:hover{
   border-color: #6494AA;
   font-family: "Palatino";
   color: #F9F7F0;
-  position: relative;
+  /* position: relative; */
 }
 
-#backtotop{
-  position: fixed;
-  float: left;
+
+@media screen and (min-width:700px){
+
 }
 
-/* @media screen and (min-width:700px){
-
-} */
-
-@media screen and (max-width:600px){
+@media screen and (max-width:1000px){
   #content{
     display:flex;
     flex-direction:column;
+    justify-content: center;
+    float:left;
+    margin-top:-25%;
   }
+
+  #heroimage{
+    height:500px;
+    margin-bottom: 0px;
+  }
+
+  #pics{
+    justify-content: center;
+  }
+
+  #text{
+    justify-content: center;
+  }
+
+
+
+
 }
