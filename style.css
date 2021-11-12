@@ -159,10 +159,19 @@ a:hover{
   #text{
     justify-content: center;
   }
+
 }
 
 @media screen and (max-width:400px){
   #hero{
     padding-bottom: -200px;
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 399px){
+  #hero{
+    /* padding-bottom: -200px; */
+    background-color: blue;
   }
 }

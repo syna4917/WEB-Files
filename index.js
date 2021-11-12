@@ -14,9 +14,9 @@ document.getElementById("picbutton").addEventListener("click", buttonClicked);
   }
 
 
-  document.getElementById("backtotop").addEventListener("click", linkClicked);
-
-  function linkClicked(){
-    alert("Are you sure you want to go to the top?")
-    document.getElementById("backtotop").innerHTML = "You went back to the top.";
-  }
+  // document.getElementById("backtotop").addEventListener("click", linkClicked);
+  //
+  // function linkClicked(){
+  //   alert("Are you sure you want to go to the top?")
+  //   document.getElementById("backtotop").innerHTML = "You went back to the top.";
+  // }
