@@ -5,4 +5,59 @@ body{
 h1{
   font-family: 'Oswald';
   color: #FFFFFF;
+  font-size: 7vw;
+  /* margin-bottom: 0px; */
+
+}
+
+h2{
+    font-family: 'Oswald';
+    color: #FFFFFF;
+    /* margin-bottom: 0px; */
+
+}
+
+h3{
+    font-family: 'Oswald';
+    color: #FFFFFF;
+}
+
+p{
+    font-family: 'Oswald';
+    color: #FFFFFF;
+}
+
+a{
+  font-family: 'Oswald';
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#hero{
+  margin-bottom: -100px;
+}
+
+#pages{
+  display:flex;
+  width:auto;
+  justify-content: right;
+  margin-top: 0px;
+}
+
+.pagelinks{
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-right:50px;
+  padding-right:50px;
+}
+
+#footer{
+  display:flex;
+  width:auto;
+  position:fixed;
+  bottom:0;
+}
+
+.footerlinks{
+  padding:50px;
 }
