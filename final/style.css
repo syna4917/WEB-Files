@@ -6,15 +6,11 @@ h1{
   font-family: 'Oswald';
   color: #FFFFFF;
   font-size: 7vw;
-  /* margin-bottom: 0px; */
-
 }
 
 h2{
     font-family: 'Oswald';
     color: #FFFFFF;
-    /* margin-bottom: 0px; */
-
 }
 
 h3{
@@ -60,4 +56,26 @@ a{
 
 .footerlinks{
   padding:50px;
+}
+
+
+.codeexamples{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  /* height:20vh;
+  width:20vw; */
+  margin: 15px;
+}
+
+.examplecontent{
+  display:flex;
+  flex-direction:column;
+}
+
+img{
+  object-fit: cover;
+  padding: 15px;
+  height:20vh;
+  width:20vw;
 }
