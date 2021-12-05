@@ -58,24 +58,55 @@ a{
   padding:50px;
 }
 
-
 .codeexamples{
   display:flex;
   flex-wrap:wrap;
   align-items:center;
-  /* height:20vh;
-  width:20vw; */
   margin: 15px;
 }
 
 .examplecontent{
   display:flex;
   flex-direction:column;
-}
-
-img{
   object-fit: cover;
   padding: 15px;
   height:20vh;
   width:20vw;
+}
+
+.aboutcontent{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+.aboutcontent img{
+  height:22%;
+  width:22%;
+}
+
+.aboutcontent p{
+  overflow: wrap;
+}
+
+
+
+
+.photorows{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  height: 300px;
+}
+
+.portraits{
+  display:flex;
+  flex-direction:row;
+  padding: 15px;
+}
+
+.landscapes{
+  display:flex;
+  flex-direction:row;
+  padding: 15px;
 }
