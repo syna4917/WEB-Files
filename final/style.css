@@ -6,6 +6,9 @@ h1{
   font-family: 'Oswald';
   color: #FFFFFF;
   font-size: 7vw;
+  margin-top:0px;
+  margin-left:10px;
+  margin-bottom:10px;
 }
 
 h2{
@@ -50,12 +53,19 @@ a{
 footer{
   display:flex;
   width:auto;
-  position:fixed;
+  justify-content: flex-end;
+  margin-top:0px;
   bottom:0;
 }
 
 .footerlinks{
-  padding:50px;
+  margin-top:0px;
+  padding-right:50px;
+  padding-left:5
+}
+
+#content{
+  margin-bottom:10px;
 }
 
 .codecontent{
@@ -88,15 +98,15 @@ footer{
   margin: 15px;
 }
 
-.aboutcontent{
+.about{
   display:flex;
   flex-direction:row;
   justify-content:center;
 }
 
 .aboutcontent img{
-  height:22%;
-  width:22%;
+  height:100%;
+  width:100%;
 }
 
 .aboutcontent p{
