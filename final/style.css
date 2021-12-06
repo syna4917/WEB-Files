@@ -47,7 +47,7 @@ a{
   padding-right:50px;
 }
 
-#footer{
+footer{
   display:flex;
   width:auto;
   position:fixed;
@@ -58,20 +58,34 @@ a{
   padding:50px;
 }
 
-.codeexamples{
+.codecontent{
   display:flex;
-  flex-wrap:wrap;
+  flex-direction:column;
+  /* object-fit: cover; */
+  padding: 15px;
+  /* height:20vh;
+  width:20vw; */
+}
+
+.codecontent img{
+  height:20vh;
+  width:20vw;
+}
+
+.coderow1{
+  display:flex;
+  flex-direction:row;
+  /* flex-wrap:wrap; */
   align-items:center;
   margin: 15px;
 }
 
-.examplecontent{
+.coderow2{
   display:flex;
-  flex-direction:column;
-  object-fit: cover;
-  padding: 15px;
-  height:20vh;
-  width:20vw;
+  flex-direction:row;
+  /* flex-wrap:wrap; */
+  align-items:center;
+  margin: 15px;
 }
 
 .aboutcontent{
@@ -87,6 +101,7 @@ a{
 
 .aboutcontent p{
   overflow: wrap;
+  /* this got an error in the validator, how do i fix it? */
 }
 
 
