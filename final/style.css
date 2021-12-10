@@ -1,3 +1,4 @@
+/* general styling */
 body{
   background-color: #000000;
 }
@@ -30,6 +31,7 @@ h4{
   animation-duration: 3s;
 }
 
+/* this is the animation for the home page */
 @keyframes fade{
   0% {color: #000000;}
   20% {color: #221f1b;}
@@ -79,13 +81,14 @@ footer{
 .footerlinks{
   margin-top:0px;
   padding-right:50px;
-  padding-left:5
+  padding-left:5px;
 }
 
 #content{
   margin-bottom:10px;
 }
 
+/* styling for the code page specifically */
 .codecontent{
   display:flex;
   flex-direction:column;
@@ -98,7 +101,8 @@ footer{
 }
 
 img:hover{
-  background-color: #221f1b;
+  border: 1px;
+  border-color: #ffffff;
 }
 
 .coderow1{
@@ -122,6 +126,7 @@ img:hover{
   margin-right:30px;
 }
 
+/* styling for the about paage */
 .about{
   display:flex;
   flex-direction:row;
@@ -146,8 +151,7 @@ img:hover{
 }
 
 
-
-
+/* styling for the photography page */
 .photorows{
   display:flex;
   flex-direction:row;
