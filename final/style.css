@@ -24,6 +24,19 @@ h3{
 h4{
   font-family: 'Oswald';
   color: #FFFFFF;
+  font-size: 50px;
+  text-align:center;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade{
+  0% {color: #000000;}
+  20% {color: #221f1b;}
+  40% {color: #736f72;}
+  60% {color: #a3a3a3;}
+  80% {color: #e5e5e5;}
+  100% {color: #ffffff;}
 }
 
 p{
@@ -82,6 +95,10 @@ footer{
 .codecontent img{
   height:20vh;
   width:20vw;
+}
+
+img:hover{
+  background-color: #221f1b;
 }
 
 .coderow1{
